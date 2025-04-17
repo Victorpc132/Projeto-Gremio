@@ -24,13 +24,20 @@ background-position: center;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
- #name{
+#name{
     width: 40%;
     max-width: 500px;
     margin: 0 auto;
     border: 1px solid #ccc;
     border-radius: 5px;
    
+}
+#age {
+  width: 40%;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
 }
 #dropdown {
     width: 40%;
@@ -46,7 +53,7 @@ background-position: center;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-#form{ 
+#form { 
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -56,7 +63,7 @@ background-position: center;
   background: #ccc
 
 }
-#academic{ 
+#academic {
     background-color: #ccc;
     width: 100%;
     max-width: 600px;
@@ -83,3 +90,24 @@ footer {
   width: 100%;
   margin-top: 10px;
   align-items: center;}
+
+#submit {
+  border: none;
+  background-color: #029407;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 8px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; 
+
+}

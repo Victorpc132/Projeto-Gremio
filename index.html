@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" spellcheck="true">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +13,17 @@
     <fieldset>
         <legend>Informações Pessoais</legend>
         <form  id="survey-form"  method="POST" name="contact" netlify>
-                <div id="form">
+               <div id="form">
                 <p>Por favor, preencha o formulário com suas críticas e sugestões sobre o campus Camboriú</p>
                 <label for="name" id="name-label">Nome:</label>
                 <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
                 <label for="email" id="email-label" >Email:</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-                <label for="number" id="number-label">Idade:</label>
-                <input type="number" id="number" name="number" min="10" max="120" placeholder="Digite sua Idade" required>
-                    </div>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" minlength="10" required>
+                <label for="age" id="age-label">Idade:</label>
+                <input type="age" id="age" name="age" min="10" max="120" placeholder="Digite sua Idade" required>
+                <label for="number" id="number-label">Telefone:</label>
+                <input type="tel" id="number" name="number" placeholder="Digite seu telefone" minlength="10" maxlength="11" required>
+               </div>
                 <legend>Informações Acadêmicas</legend>
                 <div id="academic">
                 <p>Por favor, preencha suas Informações Acadêmicas </p>
@@ -46,8 +48,8 @@
       </div>
     </form>
     </fieldset>
-    <footer>
-        <p>Este formulário é parte de um projeto do Gremio Estudantil</p>
-    </footer>
 </body>
+    <footer>
+        <p>Este formulário é parte de um projeto do Grêmio Estudantil</p>
+    </footer>
 </html>
